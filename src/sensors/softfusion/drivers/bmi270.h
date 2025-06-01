@@ -41,7 +41,7 @@ namespace SlimeVR::Sensors::SoftFusion::Drivers {
 // Timestamps reading are not used
 
 struct BMI270 {
-	static constexpr uint8_t Address = 0x68;
+	static constexpr uint8_t Address = 0x69;
 	static constexpr auto Name = "BMI270";
 	static constexpr auto Type = SensorTypeID::BMI270;
 
